@@ -48,7 +48,7 @@ btn.onclick = () => {
 }
 const handleCommands = (command) => {
     console.log(command)
-    if (command.includes("who are you") || command.includes("hu r u") || command.includes("tum kaun ho") || command.includes|| command.includes("tum kaun ho") || (" Kisne banaya")) {
+    if (command.includes("who are you") || command.includes("hu r u") || command.includes("tum kaun ho") || command.includes("kaun ho tum")) {
         speakFunc("I am Virtual Asistance, Developed by Veerbhadra Pathak Sir");
     } else if (command.includes("google.com") || command.includes("google") || command.includes("open google.com")) {
         speakFunc("Opening")
